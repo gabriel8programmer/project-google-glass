@@ -68,3 +68,18 @@ fieldset legend {
     background-position: 100% 100%;
 }
 
+#envio {
+    background-image: url("../_imagens/botao-enviar.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+    background-size: 100%;
+    background-position: 0px 0px;
+    border:none;
+}
+
+#envio:hover {
+    filter: brightness(80%);
+    box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+}
+
