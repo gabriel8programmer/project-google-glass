@@ -1,0 +1,284 @@
+/*cores para o projeto
+    #606060
+    #ddd
+    #cecece
+*/
+
+/*fontes para o projeto*/
+@font-face {
+    font-family: 'fonte-logo';
+    src :url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+
+/*formatação para o corpo da pagina*/
+body {
+    background-color: #ddd;
+    margin:0;
+}
+
+/*formatação comum a todas as tags*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*formatação comum a todas as tags p*/
+p {
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 10pt;
+}
+
+/*formatação comum a todas as tags a*/
+a {
+    text-decoration: none;
+    color:#606060;
+    font-weight:500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*formatação para a interface da pagina*/
+#interface {
+    width:900px;
+    border:1px solid #cecece;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    margin:0px auto;
+    padding:10px;
+    background-color:white;
+    position: relative;
+}
+
+/*formatação para o cabecalho da pagina*/
+#cabecalho {
+    border-bottom: 1px solid #606060;
+    height:150px;
+    background-image: url("../_imagens/glass-logo-peq.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 80px;
+}
+
+#cabecalho h1 {
+    color:#606060;
+    text-shadow:1px 1px 1px rgba(0,0,0,.4);
+    font-family: 'fonte-logo', sans-serif;
+    font-size:30pt;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top:20px;
+}
+
+#cabecalho h2 {
+    color:#cecece;
+    text-shadow:1px 1px 1px rgba(0,0,0,.4);
+    font-size: 15pt;
+    font-weight: bolder;
+    margin-top:0px;
+}
+
+/*formatação para a imagem do oculos*/
+#icone {
+    position:absolute;
+    top:100px;
+    left:calc(100% - 160px);
+}
+
+/*formatação para o menu de botoes*/
+#menu-pagina {
+    position:absolute;
+    top:0px;
+    left:calc(100% - 580px);
+}
+
+#menu-pagina h1 {
+    display:none;
+}
+
+#menu-pagina a {
+    background-color: #ddd;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.6);
+    padding:10px;
+    color:black;
+    transition: 1.5s;
+    margin:1px;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+#menu-pagina a:hover {
+    background-color: #606060;
+    color:white;
+    text-decoration: underline;
+}
+
+/*formatação para o corpo da pagina*/
+#corpo {
+}
+
+/*formatação para o article de conteudo principal*/
+#conteudo-principal {
+    display: block;
+    width:500px;
+    float:left;
+    border-right:1px solid #606060;
+    padding:10px;
+}
+
+#conteudo-principal h2 {
+    font-size:12pt;
+    color:#606060;
+    background-color:#cecece;
+    padding:5px;
+}
+
+/*formatação para o cabecalho do corpo da página*/
+#cabecalho-corpo {
+    margin-bottom: 20px;
+}
+
+#cabecalho-corpo h1 {
+    font-family: 'fonte-logo', sans-serif;
+    font-size: 18pt;
+    color:#606060;
+    margin-bottom: 0px;
+}
+
+#cabecalho-corpo h2 {
+    font-size: 12pt;
+    color:#cecece;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    background-color: white;
+    padding:0px;
+    margin-top:0px;
+}
+
+#cabecalho-corpo h3 {
+    color:#cecece;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+#cabecalho-corpo h4 {
+    font-size: 6pt;
+    text-align: right;
+}
+
+
+/*formatação para a imagem com legenda*/
+#imagem-legenda {
+    border:8px solid white;
+    box-shadow: 0px 0px 10px #606060;
+    position: relative;
+    margin:0 auto;
+}
+
+#imagem-legenda img{
+    width:100%;
+}
+
+#imagem-legenda figcaption {
+    filter:opacity(0%);
+    background-color: rgba(0,0,0,.4);
+    color:white;
+    position: absolute;
+    padding:20px;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+    transition: 1.5s;
+}
+
+#imagem-legenda figcaption:hover {
+    filter:opacity(100%);
+}
+
+/*formatação para a tabela*/
+#tabela-spec {
+    border:1px solid #606060;
+    margin:0 auto;
+    border-spacing: 0px;
+}
+
+#tabela-spec caption{
+    font-size:12pt;
+    color:#606060;
+    font-weight:bold;
+    clear:right;
+}
+
+#tabela-spec caption span {
+    font-size:7pt;
+    display: block;
+    float:right;
+    margin-top:10px;
+}
+
+#tabela-spec td {
+    border: 1px solid #606060;
+    padding:10px;
+}
+
+#tabela-spec td.coluna-esquerda {
+    background-color: #606060;
+    color:white;
+    text-align: right;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+#tabela-spec td.coluna-direita {
+    background-color: #cecece;
+    text-align: left;
+}
+
+/*formatação para a aside de conteudo lateral*/
+#conteudo-lateral {
+    display: block;
+    width:350px;
+    float:right;
+    padding:20px 10px;
+    margin-top:30px;
+    background-color: #cecece;
+}
+
+#conteudo-lateral h1{
+    color:#606060;
+    font-family: 'fonte-logo', sans-serif;
+    font-size: 18pt;
+}
+
+#conteudo-lateral h2{
+    color:white;
+    background-color: #606060;
+    padding:5px;
+    font-size: 12pt;
+}
+
+#titulo-video {
+    margin-bottom: 0px;
+}
+
+#video01 {
+    width: 100%;
+}
+
+#video02 {
+    width:100%;
+}
+
+
+/*formatação para o rodape*/
+#rodape {
+    clear: both;
+    border-top:1px solid #606060;
+    padding:20px 0px 0px 0px;
+}
+
+#rodape p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}

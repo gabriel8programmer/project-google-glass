@@ -1,0 +1,12 @@
+
+/*formatação para o corpo da pagina*/
+#janela {
+    width:380px;
+    height:250px;
+    border:none;
+    overflow: hidden;
+}
+
+#janela::-webkit-scrollbar {
+    display: none;
+}

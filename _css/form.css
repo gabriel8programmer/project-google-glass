@@ -1,0 +1,70 @@
+
+#formulario {
+    width: 400px;
+    margin:auto;
+    border-color: #606060;
+}
+
+#formulario p {
+    text-indent: 0px;
+    text-align: left;
+}
+
+#sexo {
+    width: 100px;
+    padding:0px;
+}
+
+input {
+    background-color: rgba(255, 255, 255,.2);
+    border:1px solid #606060;
+}
+
+textarea {
+    background-color: rgba(255, 255, 255,.2);
+    border:1px solid #606060;
+}
+
+fieldset {
+    background-color: rgba(255, 255, 255, .2);
+    margin-bottom: 20px;
+}
+
+fieldset legend {
+    color: #888;
+    font-weight: bold;
+}
+
+#id-numero {
+    width: 50px;
+}
+
+#id-msg {
+    width:calc(100% - 20px);
+    height: 100px;
+}
+
+#usuario {
+    background-image: url("../_imagens/icone-contato.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+#endereco {
+    background-image: url("../_imagens/icone-endereco.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+#mensagem {
+    background-image: url("../_imagens/icone-mensagem.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+#compra {
+    background-image: url("../_imagens/icone-pagamento.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
