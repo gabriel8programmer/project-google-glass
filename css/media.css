@@ -1,24 +1,23 @@
-
 #radio-tv {
     width: 900px;
     height: 600px;
-    background-image: url("../_imagens/radio-tv.png");
+    background-image: url("../images/radio-tv.png");
     background-size: 100%;
-    margin:auto;
+    margin: auto;
 }
 
 #video {
     position: relative;
-    width:425px;
-    height:350px;
-    top:50px;
-    left:100px;
+    width: 425px;
+    height: 350px;
+    top: 50px;
+    left: 100px;
 }
 
 #audio {
     position: relative;
-    width:300px;
+    width: 300px;
     height: 35px;
-    top:182px;
+    top: 182px;
     left: 145px;
 }

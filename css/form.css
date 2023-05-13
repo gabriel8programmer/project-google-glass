@@ -1,7 +1,6 @@
-
 #formulario {
     width: 400px;
-    margin:auto;
+    margin: auto;
     border-color: #606060;
 }
 
@@ -12,17 +11,17 @@
 
 #sexo {
     width: 100px;
-    padding:0px;
+    padding: 0px;
 }
 
 input {
-    background-color: rgba(255, 255, 255,.2);
-    border:1px solid #606060;
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid #606060;
 }
 
 textarea {
-    background-color: rgba(255, 255, 255,.2);
-    border:1px solid #606060;
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid #606060;
 }
 
 fieldset {
@@ -40,46 +39,45 @@ fieldset legend {
 }
 
 #id-msg {
-    width:calc(100% - 20px);
+    width: calc(100% - 20px);
     height: 100px;
 }
 
 #usuario {
-    background-image: url("../_imagens/icone-contato.png");
+    background-image: url("../images/icone-contato.png");
     background-repeat: no-repeat;
     background-position: 100% 100%;
 }
 
 #endereco {
-    background-image: url("../_imagens/icone-endereco.png");
+    background-image: url("../images/icone-endereco.png");
     background-repeat: no-repeat;
     background-position: 100% 100%;
 }
 
 #mensagem {
-    background-image: url("../_imagens/icone-mensagem.png");
+    background-image: url("../images/icone-mensagem.png");
     background-repeat: no-repeat;
     background-position: 100% 100%;
 }
 
 #compra {
-    background-image: url("../_imagens/icone-pagamento.png");
+    background-image: url("../images/icone-pagamento.png");
     background-repeat: no-repeat;
     background-position: 100% 100%;
 }
 
 #envio {
-    background-image: url("../_imagens/botao-enviar.png");
+    background-image: url("../images/botao-enviar.png");
     background-repeat: no-repeat;
     width: 100px;
     height: 40px;
     background-size: 100%;
     background-position: 0px 0px;
-    border:none;
+    border: none;
 }
 
 #envio:hover {
     filter: brightness(80%);
-    box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
 }
-
